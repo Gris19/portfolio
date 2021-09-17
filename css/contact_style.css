@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+
+.title {
+  font-family: "Rye", cursive;
+}
+
+.container {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+  padding: 30px;
+}
+
+#content {
+  overflow: auto;
+  width: 600px;
+}
+#left,
+#right {
+  width: 40%;
+  margin: 5px;
+  padding: 1px;
+}
+#left {
+  float: left;
+}
+#right {
+  float: right;
+}
+
+#contenedor {
+  width: 80%;
+  margin: 0 auto;
+  /*Para que el width se adapte*/
+  /*No funciona con el bootstrap :(*/
+  flex-basis: 10em;
+  flex-basis: 3px;
+  flex-basis: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+label,
+option,
+p {
+  font-size: 17px;
+}
+
+header {
+  height: 150px;
+}
+
+header h1 {
+  font-size: 50px;
+  text-align: center;
+  line-height: 150px;
+}
+
+#contenido {
+  font-family: "Happy Monkey", cursive;
+  width: 600px;
+  height: 500px;
+  float: left;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align: 30px;
+  padding: 20px;
+}
+
+#contenido h2 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 500px;
+}
+
+aside {
+  font-family: "Happy Monkey", cursive;
+  width: 250px;
+  height: 500px;
+  margin-top: 10px;
+  float: right;
+}
+
+aside h2 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 500px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+/*Footer*/
+.footer-basic {
+  margin-top: 50px;
+  padding: 5px;
+  background-color: rgba(255, 125, 209, 0.363);
+  color: #4b4c4d; /*Cambia de color los iconos*/
+  width: 100%;
+  height: absolute;
+  position: absolute;
+  bottom: absolute;
+  left: 0;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer-basic .social > a {
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 125, 209, 0.406);
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .copyright {
+  font-family: "Happy Monkey", cursive;
+  margin-top: 1px;
+  text-align: center;
+  font-size: 13px;
+  color: #4b4c4d;
+}
+
+/*Para el menu*/
+.navbar {
+  font-family: "Happy Monkey", cursive;
+  overflow: hidden;
+  background-color: rgba(255, 125, 209, 0.406);
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+/* El botoncito se enciende si el mouse pasa por ahí */
+a:hover {
+  background-color: rgba(247, 247, 247);
+}

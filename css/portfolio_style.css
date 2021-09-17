@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -o-background-size: 100% 100%, auto;
+  -moz-background-size: 100% 100%, auto;
+  -webkit-background-size: 100% 100%, auto;
+  background-size: 100% 100%, auto;
+}
+
+h1 {
+  font-family: "Rye", cursive;
+  color: rgb(255, 125, 209);
+  font-size: 50px;
+}
+
+p {
+  font-family: "Happy Monkey", cursive;
+  color: black;
+  font-size: 20px;
+}
+
+/*Para las descripciones de los proyectos*/
+h4 {
+  font-family: "Rye", cursive;
+  color: rgb(255, 125, 209);
+}
+
+.box-portfolio {
+  font-family: "Happy Monkey", cursive;
+  text-align: center;
+  margin-left: 10px;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: flexible;
+}
+
+.box-portfolio p {
+  font-size: 17px;
+}
+
+.box-portfolio img {
+  margin-top: 220px;
+  max-height: 450px;
+  max-width: 300px;
+  margin: auto;
+  border: 4px solid rgba(255, 125, 209, 0.406);
+  display: block;
+  float: left;
+}
+
+.box-portfolio ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*Footer*/
+.footer-basic {
+  margin-top: 50px;
+  padding: 5px;
+  background-color: rgba(255, 125, 209, 0.363);
+  color: #4b4c4d; /*Cambia de color los iconos*/
+  position: fixed;
+  width: 100%;
+  height: absolute;
+  position: absolute;
+  bottom: absolute;
+  left: 0;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer-basic .social > a {
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 125, 209, 0.406);
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .copyright {
+  font-family: "Happy Monkey", cursive;
+  margin-top: 1px;
+  text-align: center;
+  font-size: 13px;
+  color: #4b4c4d;
+}
+
+/*Para el menu*/
+.navbar {
+  font-family: "Happy Monkey", cursive;
+  overflow: hidden;
+  background-color: rgba(255, 125, 209, 0.406);
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+/* El botoncito se enciende si el mouse pasa por ahí */
+a:hover {
+  background-color: rgba(247, 247, 247);
+}
