@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background4.jpg");
   background-color: white;
   background-repeat: no-repeat;
   background-position: center center;
@@ -19,7 +19,7 @@ h1 {
   font-family: "Rye", cursive;
   font-size: 40px;
   text-align: center;
-  color: rgb(255, 125, 209);
+  color: rgb(195, 113, 218);
 }
 
 #container {
@@ -43,9 +43,9 @@ img {
   font-family: "Happy Monkey", cursive;
   /*Le quita el subrayado*/
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   /*El ultimo dato es la transparencia*/
-  background-color: rgba(185, 185, 185, 0.525);
+  background-color: rgba(195, 66, 246, 0.525);
   /*Espacio entre uno y otro*/
   padding: 5px;
   /*Va a poner abajo a los elementos*/
@@ -57,7 +57,7 @@ img {
 }
 
 #container a:hover {
-  background-color: rgba(247, 247, 247);
+  background-color: rgba(217, 136, 249, 0.857);
 }
 
 /*Footer*/
@@ -65,7 +65,7 @@ img {
   margin-top: 50px;
   padding: 5px;
   background-color: rgba(255, 125, 209, 0.363);
-  color: #4b4c4d; /*Cambia de color los iconos*/
+  color: #ffffff; /*Cambia de color los iconos*/
   position: fixed;
   width: 100%;
   height: absolute;
@@ -98,7 +98,7 @@ img {
   margin-top: 1px;
   text-align: center;
   font-size: 13px;
-  color: #4b4c4d;
+  color: #ffffff;
 }
 
 .footer-basic .copyright {
@@ -106,7 +106,7 @@ img {
   margin-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #4b4c4d;
+  color: #ffffff;
 }
 
 /*Para el menu*/
@@ -119,7 +119,7 @@ img {
 .navbar a {
   float: left;
   font-size: 14px;
-  color: black;
+  color: rgb(255, 255, 255);
   border-radius: 15px;
   text-align: center;
   padding: 10px 12px;
@@ -128,5 +128,5 @@ img {
 
 /* El botoncito se enciende si el mouse pasa por ahí */
 a:hover {
-  background-color: rgba(247, 247, 247);
+  background-color: rgba(255, 125, 244, 0.767);
 }

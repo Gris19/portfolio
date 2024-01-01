@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background4.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -16,10 +16,10 @@ body {
 }
 
 img {
-  padding: 2px;
-  margin-top: 220px;
-  max-height: 220px;
-  max-width: 220px;
+  padding: 4px;
+  margin-top: 320px;
+  max-height: 320px;
+  max-width: 320px;
   /*Se puede poner con %, pixeles o auto que lo va a centrar, es deicr, pondra el mismo amrgen de un lado que de otro*/
   margin: auto;
   border-radius: 15%;
@@ -29,17 +29,27 @@ img {
   margin: 5px 0 0 0;
 }
 
-h1,
-dt {
+h1 {
   font-family: "Rye", cursive;
-  color: rgba(255, 125, 209);
+  color: rgb(227, 125, 255);
+}
+
+strong {
+  font-family: "Happy Monkey", cursive;
+  color: rgba(218, 84, 255, 0.756);
 }
 
 h2,
+dt {
+  font-family: "Happy Monkey", cursive;
+  color: rgb(227, 125, 255);
+}
+
 ul,
 p,
 dd {
   font-family: "Happy Monkey", cursive;
+  color: rgb(255, 255, 255);
 }
 
 /*Footer*/
@@ -47,7 +57,7 @@ dd {
   margin-top: 10px;
   padding: 5px;
   background-color: rgba(255, 125, 209, 0.363);
-  color: #4b4c4d; /*Cambia de color los iconos*/
+  color: #ffffff; /*Cambia de color los iconos*/
   position: fixed;
   width: 100%;
   height: absolute;
@@ -80,7 +90,7 @@ dd {
   margin-top: 1px;
   text-align: center;
   font-size: 13px;
-  color: #4b4c4d;
+  color: #ffffff;
 }
 
 /*Para el menu*/
@@ -94,7 +104,7 @@ dd {
 .navbar a {
   float: left;
   font-size: 14px;
-  color: black;
+  color: rgb(255, 255, 255);
   border-radius: 15px;
   text-align: center;
   padding: 10px 12px;
@@ -103,5 +113,5 @@ dd {
 
 /* El botoncito se enciende si el mouse pasa por ahí */
 a:hover {
-  background-color: rgba(247, 247, 247);
+  background-color: rgba(255, 125, 244, 0.636);
 }
